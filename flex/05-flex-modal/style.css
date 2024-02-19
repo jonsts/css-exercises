@@ -20,6 +20,18 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.right {
+    flex: 2 1 0%;
+    flex-direction: row;
+}
+.top {
+  display: flex;
+  justify-items: space-between;
 }
 
 .icon {
