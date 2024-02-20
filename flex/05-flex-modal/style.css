@@ -22,16 +22,19 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 10px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .right {
+  display: flex;
+  flex-direction: column;
     flex: 2 1 0%;
-    flex-direction: row;
+    gap: 10px;
 }
 .top {
   display: flex;
-  justify-items: space-between;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .icon {
@@ -78,4 +81,8 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.text {
+padding: 5px;
 }
